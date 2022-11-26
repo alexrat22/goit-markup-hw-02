@@ -98,7 +98,7 @@ body {
 }
 
 .logo-footer-two {
-	color: var(--main-text-color);
+	color: var(--secondary-background-color);
 	line-height: 1.17;
 	margin-left: -4px;
 }
