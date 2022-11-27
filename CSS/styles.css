@@ -11,7 +11,7 @@
 body {
 	color: var(--main-text-color);
 	background-color: var(--background-color);
-	font-family: "Roboto";
+	font-family: "Roboto", sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
@@ -42,22 +42,18 @@ a {
 	text-decoration: none;
 }
 
-/* Main page */
+/* Header */
 
 .logo {
 	font-family: "Raleway";
 	font-size: 18px;
-}
-
-.logo-header-one {
-	color: var(--accent-color);
 	line-height: 1.33;
-}
-
-.logo-header-two {
 	color: var(--secondary-text-color);
-	line-height: 1.33;
-	margin-left: -4px;
+	word-spacing: -4px;
+}
+
+.logo-web {
+	color: var(--accent-color);
 }
 
 .nav-list {
@@ -70,6 +66,14 @@ a {
 	color: var(--accent-color);
 }
 
+.studio {
+	color: var(--accent-color);
+}
+
+.portfolio {
+	color: var(--accent-color);
+}
+
 .contacts {
 	color: var(--main-text-color);
 }
@@ -78,6 +82,8 @@ a {
 .contacts:focus {
 	color: var(--accent-color);
 }
+
+/* Page Studio */
 
 .hero {
 	background-color: var(--secondary-text-color);
@@ -133,23 +139,22 @@ a {
 	color: var(--secondary-text-color);
 }
 
-.logo-footer-one {
-	color: var(--accent-color);
-	line-height: 1.17;
-}
+/* Footer */
 
-.logo-footer-two {
-	color: var(--secondary-background-color);
-	line-height: 1.17;
-	margin-left: -4px;
-}
-
-.footer {
+footer {
 	color: var(--footer-text);
 	background-color: var(--secondary-text-color);
 }
 
-/* Portfolio */
+.logo-footer {
+	font-family: "Raleway";
+	font-size: 18px;
+	line-height: 1.17;
+	word-spacing: -4px;
+	color: var(--secondary-background-color);
+}
+
+/* Page Portfolio */
 
 .filter-button {
 	font-family: inherit;
@@ -166,4 +171,11 @@ a {
 .filter-button:focus {
 	color: var(--background-color);
 	background-color: var(--accent-color);
+}
+
+.portfolio-title {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 1.2;
+	color: var(--secondary-text-color);
 }
