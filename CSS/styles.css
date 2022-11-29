@@ -41,7 +41,6 @@ a {
 }
 
 /* Header */
-
 .logo {
 	font-family: "Raleway";
 	font-weight: 800;
@@ -144,7 +143,7 @@ a {
 .footer-text,
 .portfolio-text {
 	line-height: 1.5;
-	letter-spacing: 0.02;
+	letter-spacing: 0.02em;
 }
 
 .employees {
